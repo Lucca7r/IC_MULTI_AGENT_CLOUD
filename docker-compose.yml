@@ -1,0 +1,11 @@
+version: '3'
+services:
+  agent1:
+    build: .
+    container_name: agent1
+    restart: always
+
+  agent2:
+    build: .
+    container_name: agent2
+    restart: always
